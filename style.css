@@ -26,6 +26,11 @@ header{
   background-color: rgba(240,240,240);
 }
 
+.share-button svg{
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
 .container{
   width: 91%;
   max-width: 680px;
@@ -54,12 +59,22 @@ a{
   justify-content: space-between;
 }
 
+.tile:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.02);
+}
+
 .tile-share-button{
   margin: 8px;
   width: 40px;
   height: 40px;
   border-radius: 20px;
   background-color: rgba(52,52,52);
+}
+
+.tile-share-button svg {
+  margin-left: 12px;
+  margin-top: 12px;
 }
 
 .image-container{
